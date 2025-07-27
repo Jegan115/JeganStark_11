@@ -1,0 +1,96 @@
+/* Weather result box styling */
+#weatherResult {
+  background: rgba(255,255,255,0.75);
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.10);
+  padding: 24px;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 900px;
+  font-size: 1.2rem;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  height: 50vh;
+  width: 50%;
+  padding: 20px;
+  min-height: 100vh;
+  border: 2.5px solid transparent;
+  border-radius: 18px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.12);
+  margin-left: 25%;
+}
+
+header{
+  text-align: center;
+  color: #fff;
+  margin-bottom: 2px;
+  font-size: 2.8rem;
+  font-weight: 700;
+  text-shadow: 0 2px 16px rgba(44,0,80,0.7), 0 1px 0 #222;
+}
+header p {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-shadow: 0 2px 12px rgba(44,0,80,0.7), 0 1px 0 #222;
+  margin-top: 0.5rem;
+}
+.search-section{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  justify-content: center;
+  gap:15px;
+  height: max-content;
+}
+.city-input{
+  width: 100%;
+  max-width: 350px;
+  padding: 12px 18px;
+  font-size: 1.1rem;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: border-color 0.2s, box-shadow 0.2s;
+  background: rgba(255,255,255,0.85);
+  color: #222;
+  margin: 0 auto;
+  display: block;
+}
+.city-input:focus {
+  border-color: #0077ff;
+  box-shadow: 0 4px 16px rgba(0,119,255,0.12);
+  background: #fff;
+}
+.search-btn{
+  padding:15px 25px;
+  margin-left: 40%;
+  font-size:1.2rem;
+  background-color: burlywood;
+  color:white;
+  border:none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+.search-btn:hover{
+  background-color: cadetblue;
+}
+.search-btn:active{
+
+  transform: translateY(1px);
+}
+body {
+  background-image: url('https://moewalls.com/wp-content/uploads/2025/02/naruto-watching-sunset-alone-thumb.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
